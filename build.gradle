@@ -12,5 +12,8 @@ repositories {
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
     compile "org.xerial:sqlite-jdbc:3.21.0.1"
+    compile "com.sparkjava:spark-core:2.7.2"
+    compile "org.slf4j:slf4j-simple:1.7.21"
+    compile "com.google.code.gson:gson:2.8.4"
 
 }
